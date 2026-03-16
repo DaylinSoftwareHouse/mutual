@@ -1,0 +1,12 @@
+[package]
+name = "mutual"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arc-swap = "1.8.2"
+bincode = { version = "2.0.1", features = ["serde"] }
+dashmap = "6.1.0"
+derive_more = { version = "2.1.1", features = ["full"] }
+serde = { version = "1.0.219", features = ["derive"] }
+siphasher = "1.0.2"
