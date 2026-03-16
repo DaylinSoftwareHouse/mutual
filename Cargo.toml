@@ -1,7 +1,10 @@
 [package]
 name = "mutual"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2024"
+description = "A library of useful atomic objects for concurrent operations."
+authors = ["DaylightNebula"]
+license = "MIT"
 
 [dependencies]
 arc-swap = "1.8.2"
